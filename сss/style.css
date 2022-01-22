@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 1150px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/* ----------------------------------img------------------ */
+.categories {
+  padding: 64px 0;
+}
+.categoties-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -32px;
+  margin-bottom: -32px;
+}
+.categories-item {
+  width: 256px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.categories-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #000000;
+}
+.categories-vraper {
+  padding-top: 13px;
+  padding-bottom: 16px;
+  padding-left: 19px;
+}
+/* ---------------------------categories-fotogalery------------------- */
+.categories-galary {
+  padding-top: 39px;
+  padding-bottom: 85px;
+}
+.galery-title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.3;
+}
+.galery-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-decoration-line: underline;
+  color: #0050b2;
+  margin-left: auto;
+  display: block;
+  margin-right: 55px;
+}
+.fotogalary-header {
+  display: flex;
+  align-items: center;
+}
+.galery-button-list {
+  display: flex;
+}
+.galery-btn {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #0061d9;
+  box-sizing: border-box;
+  border-radius: 22px;
+}
+.glr-btn-itm:not(:last-child) {
+  margin-right: 16px;
+}
+.categories-fotogalery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -32px;
+  margin-bottom: -32px;
+}
+.categories-fotogalery-item {
+  width: 352px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
