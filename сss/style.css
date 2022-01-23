@@ -17,11 +17,93 @@ ul {
   padding-left: 0;
   list-style: none;
 }
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
 button {
   cursor: pointer;
 }
 img {
   display: block;
+}
+/* --------------------------------HEADER-------------------HEADER------------------ */
+.header {
+  position: absolute;
+  width: 100%;
+}
+.flex-header {
+  display: flex;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  height: 82px;
+}
+.header__logo {
+  margin-right: 22px;
+}
+.flex-header__link-logo {
+  display: flex;
+}
+.header__title-text {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: calc(26 / 20);
+  color: #ffffff;
+}
+
+.header__text {
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  color: #ffffff;
+}
+
+.mail-tel-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.mail-tel-list__element {
+  margin-right: 32px;
+}
+.mail-tel-list__link {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(130 / 18);
+  color: #ffffff;
+}
+.header__btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  line-height: 1.1875;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 22px;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav__item {
+  margin-right: 32px;
+}
+.header-nav__link {
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 1.1875;
+  color: #fff;
 }
 
 /* ----------------------------------------HERO------------HERO--------------------------- */
